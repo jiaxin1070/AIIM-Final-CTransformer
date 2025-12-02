@@ -15,7 +15,7 @@ def evaluate_classification(gt_csv, pred_csv, save_dir="./"):
 
     # 讀取 CSV
     gt = pd.read_csv(gt_csv)
-    gt = gt.rename(columns={"CaseNo": "user_id"})  # 根據你的 GT CSV 修改
+    gt = gt.rename(columns={"CaseNo": "user_id"})
     pred = pd.read_csv(pred_csv)
 
     # 對齊 user_id
@@ -63,3 +63,4 @@ if __name__ == "__main__":
     save_dir = sys.argv[3]
 
     evaluate_classification(gt_csv, pred_csv, save_dir)
+
