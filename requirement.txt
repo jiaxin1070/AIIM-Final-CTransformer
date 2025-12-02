@@ -1,0 +1,13 @@
+# PyTorch（CPU 或 GPU 視你的環境而定）
+torch
+
+# 進度條
+tqdm
+
+# Data handling
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
