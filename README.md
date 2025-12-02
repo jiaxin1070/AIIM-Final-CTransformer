@@ -29,4 +29,3 @@ python3 inference.py \
 ```
 python3 score.py <ground truth path> <inference output csv path> <path to save score result> # 換成自己的路徑
 ```
-# AIIM-Final-CTransformer
