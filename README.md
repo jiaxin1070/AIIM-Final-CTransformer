@@ -5,8 +5,8 @@
 python3 train.py \
     --train_meth_csv <dna train data path> \ # 換成自己的路徑
     --valid_meth_csv <dna valid data path> \
-    --train_clinic_csv 'clinical train data path' \
-    --valid_clinic_csv 'clinical valid data path' \
+    --train_clinic_csv <clinical train data path> \
+    --valid_clinic_csv <clinical valid data path> \
     --save_dir <path to save checkpoint>' \
     --batch_size 8 \
     --lr 1e-4 \
