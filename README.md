@@ -7,7 +7,7 @@ python3 train.py \
     --valid_meth_csv <dna valid data path> \
     --train_clinic_csv <clinical train data path> \
     --valid_clinic_csv <clinical valid data path> \
-    --save_dir <path to save checkpoint>' \
+    --save_dir <path to save checkpoint> \
     --batch_size 8 \
     --lr 1e-4 \
     --epochs 20 \
