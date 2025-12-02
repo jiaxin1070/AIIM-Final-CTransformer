@@ -181,7 +181,7 @@ def average_attention_list(attn_list):
     return avg  # shape: (L, L)
 
 def plot_attention_grid(attn_weights,save_dir = "./checkpoints2"):
-    fig, axes = plt.subplots(3, 3, figsize=(20, 12))
+    fig, axes = plt.subplots(3, 3, figsize=(20, 20)
 
     Cs = ['c1', 'c2', 'c3']
     Fs = ['f1', 'f2', 'f3']
@@ -205,3 +205,4 @@ def plot_attention_grid(attn_weights,save_dir = "./checkpoints2"):
 
     #plt.tight_layout()
     plt.savefig(os.path.join(save_dir, "DNA-Clinic heatmap"))
+
